@@ -250,7 +250,7 @@ Avoid keeping button in Admin View. Instead, populate the Topics from API on cli
 
 1. Update the latest Topics and Pre-Packaged courses in DB. The GTPP Topics and the Pre-packaged courses list remains the same all the time. If any change is needed it will be handled manually at the backend.
 
-2. Using the MEC API response, check whether any of the MEC courses exist in the pre-packaged courses list by matching the course name. If found, need to save all the MEC details (MEC ID, type, name, description) so we can return this information when redeem code API gets called. [DOn't insert new topics from API]
+2. Using the MEC API response, check whether any of the MEC courses exist in the pre-packaged courses list by matching the course name. If found, need to save all the MEC details (MEC ID, type, name, description) so we can return this information when redeem code API gets called. [Don't insert new topics from API]
 Note: These 3 pre-packaged courses are MEC courses so we will do the mapping manually if needed (Microsoft Innovative Educator (MIE) Trainer Academy, MIE OneNote Teacher Academy, MIE Office 365 Teacher Academy)
 
 3. Promo code should be generated for all the Events irrespective of the delivery type.
@@ -269,7 +269,9 @@ Note: These 3 pre-packaged courses are MEC courses so we will do the mapping man
 ### June 22, 2019
 
 1. Manager view, Trainer Performance list, with N/A in performance column, if there are no responses for that trainer.
+
 2. Manager View, trainer Performance list, click on Trainer name, will show popup with all Events and its Survey responses. If no survey Response, then show N/A in performance column.
+
 3. Trainer Dashboard, show Smiley based on 1st Survey question response. (Average to max. 5)
 4. View Event page, Show Survey Response with number of response counts. If there are no response, then show (0 Response)
 5. If event has been created with Independent Organisation Or Showcase School Trainer, hide Survey Language.
