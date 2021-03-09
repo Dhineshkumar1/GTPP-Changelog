@@ -2,6 +2,9 @@
 
 This changelog covers what's changed in GTPP.
 
+### Mar 09, 2021
+Footer copyright year changed to 2021
+
 ### Mar 03, 2021
 Removed Independent school dropdown from the Edit Registration page
 
